@@ -20,3 +20,6 @@ Resources:
               Ref: SNSTopic1
   SNSTopic1:
     Type: 'AWS::SNS::Topic'
+    Properties:
+      DisplayName: block/allow
+      TopicName: cybage-alm-tanvi-sns
